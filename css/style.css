@@ -1,0 +1,165 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Plus Jakarta Sans;
+  background-color: #f2f2f2;
+  background-image: url('/Morada-dos-Canyons-17.jpg'); /* Substitua 'caminho/para/sua/imagem.jpg' pelo caminho correto da sua imagem */
+  background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o elemento pai */
+  background-position: center; /* Centraliza a imagem no elemento pai */
+  background-repeat: no-repeat; /* Evita a repetição da imagem */
+  text-shadow: 5px 5px 10px #000000;
+  
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.logo h1 {
+  font-size: 24px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li:first-child {
+  margin-left: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #007bff;
+}
+
+.hero {
+  background-image: url('hero-background.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.btn-reservas {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+.btn-reservas:hover {
+  background-color: #0056b3;
+}
+
+.destaques {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 50px 0;
+  color: #fff;
+  
+}
+
+.destaque {
+  text-align: center;
+  max-width: 300px;
+  
+}
+
+.destaque h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  
+}
+
+.destaque p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-icons a {
+  margin-left: 10px;
+}
+
+.social-icons a img {
+  width: 40px;
+  height: 40px;
+}
+.logo {
+  display: flex;
+  align-items: center; /* Alinha itens verticalmente */
+}
+
+.logo h1 {
+  margin-right: 10px; /* Espaçamento entre o título e a logo */
+}
+
+.logo-img {
+  width: 100px; /* Defina o tamanho da sua imagem aqui */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+  
+  
