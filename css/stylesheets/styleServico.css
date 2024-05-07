@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/fundoServico2.jpeg);
+    min-height: 100vh;
+    width: 100vw;
+}
+.contentServico{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    width: 100vw;
+}
+.tituloSpa, .tituloGastronomia, .tituloGuia{
+    text-align: center;
+    font-size: 20px;
+    color: chocolate;
+}
+.paragSpa, .paragGastronomia, .paragGuia{
+    text-align: center;
+    font-size: 25px;
+    padding: 5px 15px;
+    border-radius: 15px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.504);
+}
+.contSpa, .contGastronomia, .contGuiaTour{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.imgSpa, .imgGastronomia, .imgGuia{
+    border: solid black 6px;
+    border-radius: 5px;
+}
