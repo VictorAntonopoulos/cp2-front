@@ -1,0 +1,66 @@
+body{
+    font-size: 20px;
+}
+
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.acomodacao {
+    position: relative; /* Define o posicionamento relativo para o contêiner da acomodação */
+    margin-bottom: 40px;
+    margin-top: 40px; 
+}
+
+.acomodacao img {
+    width: 470px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.acomodacao h3 {
+    position: absolute; /* Define o posicionamento absoluto para o título */
+    top: 20px; /* Ajusta a distância do topo conforme necessário */
+    left: 20px; /* Ajusta a distância da esquerda conforme necessário */
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #fff; /* Ajuste a cor do texto conforme necessário */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adicione uma sombra ao texto para melhor legibilidade */
+    z-index: 1; /* Garante que o texto esteja acima da imagem */
+}
+
+.features {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.features li {
+    margin-bottom: 5px;
+    
+}
+
+.acomodacao p {
+    margin-bottom: 100px;
+    color: #000000;
+}
+
+.reservar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-top: 5px;
+}
+
+.reservar:hover {
+    background-color: #0056b3;
+}
+.description {
+    margin-top: 10px; 
+}
