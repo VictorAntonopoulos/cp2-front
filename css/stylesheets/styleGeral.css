@@ -4,6 +4,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+
 }
 
 body {
@@ -13,8 +15,6 @@ body {
   background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o elemento pai */
   background-position: center; /* Centraliza a imagem no elemento pai */
   background-repeat: no-repeat; /* Evita a repetição da imagem */
-  
-  
 }
 
 header {

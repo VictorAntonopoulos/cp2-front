@@ -1,37 +1,31 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
 body{
-    font-size: 20px;
+    background-color: #fff;
+    min-height: 100vh;
+    width: 100vw;
 }
-
-
-h2 {
+h2{
+    font-size: 35px;
+    color: #007bff;
+}
+.tituloAco{
     text-align: center;
-    margin-bottom: 20px;
+    padding: 15px;
+    margin: 1%;
 }
-
-.acomodacao {
-    position: relative; /* Define o posicionamento relativo para o contêiner da acomodação */
-    margin-bottom: 40px;
-    margin-top: 40px; 
+.acomodacoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-
-.acomodacao img {
-    width: 470px;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
-
-.acomodacao h3 {
-    position: absolute; /* Define o posicionamento absoluto para o título */
-    top: 20px; /* Ajusta a distância do topo conforme necessário */
-    left: 20px; /* Ajusta a distância da esquerda conforme necessário */
-    font-size: 24px;
-    margin-bottom: 10px;
-    color: #fff; /* Ajuste a cor do texto conforme necessário */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adicione uma sombra ao texto para melhor legibilidade */
-    z-index: 1; /* Garante que o texto esteja acima da imagem */
-}
-
 .features {
     list-style: none;
     margin-bottom: 10px;
@@ -45,6 +39,9 @@ h2 {
 .acomodacao p {
     margin-bottom: 100px;
     color: #000000;
+    font-size: 25px;
+    padding: 15px;
+    margin: 1%;
 }
 
 .reservar {
@@ -60,7 +57,4 @@ h2 {
 
 .reservar:hover {
     background-color: #0056b3;
-}
-.description {
-    margin-top: 10px; 
 }
