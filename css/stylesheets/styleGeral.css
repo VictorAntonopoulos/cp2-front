@@ -1,3 +1,4 @@
+
 /* Reset CSS */
 * {
   margin: 0;
@@ -12,7 +13,8 @@ body {
   background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o elemento pai */
   background-position: center; /* Centraliza a imagem no elemento pai */
   background-repeat: no-repeat; /* Evita a repetição da imagem */
-  text-shadow: 5px 5px 10px #000000;
+  
+  
 }
 
 header {
@@ -155,9 +157,111 @@ footer {
 }
 
 .logo-img {
-  width: 100px; /* Defina o tamanho da sua imagem aqui */
+  width: 30px; /* Defina o tamanho da sua imagem aqui */
   height: auto; /* Mantém a proporção da imagem */
 }
 
+/* Estilos para a descrição da imagem */
+.image-description {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* Exibir a descrição da imagem quando o mouse passa sobre ela */
+.gallery-images div:hover .image-description {
+  opacity: 1;
+}
+.map-section h2 {
+  text-align: center;
+}
+.image-caption {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+
+
+.logo h1 {
+  font-size: 24px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links li:first-child {
+  margin-left: 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.btn-reservas {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 20px;
+
+}
+
+.gallery {
+  text-align: center;
+  padding: 50px 0;
+  color: #007bff;
+}
+
+.gallery h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.gallery-images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.gallery-images img {
+  width: 100%;
+  height: auto;
+} 
   
-  
+.link-localizacao {
+  font-size: 18px;
+  color: #ffffff; /* Azul */
+  text-decoration: none;
+  transition: color 0.3s ease;
+  text-align: center; /* Centraliza o texto */
+}
+
+.link-localizacao i {
+  display: block; /* Transforma o ícone em um elemento de bloco */
+  margin-top: 30px; /* Adiciona margem acima do ícone para separá-lo do texto */
+}
+
+.link-localizacao:hover {
+  color: #007bff; 
+}
