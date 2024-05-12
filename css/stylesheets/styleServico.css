@@ -20,7 +20,7 @@ body{
 .tituloSpa, .tituloGastronomia, .tituloGuia{
     text-align: center;
     font-size: 20px;
-    color: chocolate;
+    color: #007bff;
 }
 .paragSpa, .paragGastronomia, .paragGuia{
     text-align: center;

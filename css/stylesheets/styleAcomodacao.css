@@ -3,11 +3,10 @@ body {
     font-size: 20px;
     background-color: #000;
 }
-
-h2 {
-    text-align: center;
-    margin-bottom: 20px;
+header ul li {
+    font-size: 16px;
 }
+
 
 .contentAcomodacao {
     display: flex;
@@ -17,12 +16,15 @@ h2 {
 
 .acomodacao {
     flex: 0 0 calc(33.33% - 20px); 
-    margin-bottom: 40px;
-    margin-top: 40px;
-    background-color: #021d47a4; 
+    margin: 40px 10px;
+    background-color: #007bff97; 
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
     overflow: hidden; 
+}
+main .contentAcomodacao .acomodacao .infoAcomodacao h2{
+    color: #0960bd;
+
 }
 
 .acomodacao img {
@@ -56,10 +58,7 @@ body{
     min-height: 100vh;
     width: 100vw;
 }
-h2{
-    font-size: 35px;
-    color: #007bff;
-}
+
 .tituloAco{
     text-align: center;
     padding: 15px;
